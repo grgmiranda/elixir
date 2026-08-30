@@ -80,3 +80,5 @@ combined = Secrets.secret_combine(add_one, multiply_by_2)
 combined.(3)
 # => 8
 ```
+
+[div]: https://hexdocs.pm/elixir/Kernel.html#div/2
