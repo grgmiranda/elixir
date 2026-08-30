@@ -46,7 +46,7 @@ divider.(32)
 # => 10
 ```
 
-Make use of integer division so the output is compatible with the other functions' expected input.
+Make use of [integer division][div] so the output is compatible with the other functions' expected input.
 
 ## 5. Create an "and"-er
 
@@ -80,3 +80,5 @@ combined = Secrets.secret_combine(add_one, multiply_by_2)
 combined.(3)
 # => 8
 ```
+
+[div]: https://hexdocs.pm/elixir/Kernel.html#div/2
